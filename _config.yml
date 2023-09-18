@@ -14,19 +14,19 @@ baseurl: /doc
 timezone: Europe/Paris
 
 collections:
-  Jekyll:
+  jekyll:
     title: Jekyll
     position_number: 1
-  Laravel:
+  laravel:
     title: Laravel
     position_number: 2
-  SlimFramework:
+  slimframework:
     title: SlimFramework
     position_number: 3
-  ReactJS:
+  reactjs:
     title: ReactJS
     position_number: 4
-  NodeJS:
+  nodejs:
     title: NodeJS
     position_number: 5
 plugins:
@@ -53,12 +53,12 @@ defaults:
       type: "laravel"
     values:
       _hide_content: true
-    -
+  -
     scope:
       type: "slimframework"
     values:
       _hide_content: true
-    -
+  -
     scope:
       type: "reactjs"
     values:
