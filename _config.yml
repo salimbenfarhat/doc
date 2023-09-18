@@ -1,12 +1,12 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: DOC by SALIM.LINK
+description: General Documentation For My Projects.
+url: https://salimbenfarhat.github.io
 google_analytics_key:
 permalink: pretty
-baseurl:
+baseurl: /doc
 
 # -----
 # Build
