@@ -11,15 +11,24 @@ baseurl: /doc
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Europe/Paris
 
 collections:
-  documentation:
-    title: Documentation
+  Jekyll:
+    title: Jekyll
     position_number: 1
-  api:
-    title: APIs
+  Laravel:
+    title: Laravel
     position_number: 2
+  SlimFramework:
+    title: SlimFramework
+    position_number: 3
+  ReactJS:
+    title: ReactJS
+    position_number: 4
+  NodeJS:
+    title: NodeJS
+    position_number: 5
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -36,12 +45,27 @@ defaults:
       layout: default
   -
     scope:
-      type: "documentation"
+      type: "jekyll"
     values:
       _hide_content: true
   -
     scope:
-      type: "api"
+      type: "laravel"
+    values:
+      _hide_content: true
+    -
+    scope:
+      type: "slimframework"
+    values:
+      _hide_content: true
+    -
+    scope:
+      type: "reactjs"
+    values:
+      _hide_content: true
+  -
+    scope:
+      type: "nodejs"
     values:
       _hide_content: true
 
