@@ -70,7 +70,7 @@
 			});
 
 			searchResultsEl.innerHTML = resultsHTML;
-			searchProcessEl.innerText = "Showing";
+			searchProcessEl.innerText = "Affichage";
 		} else {
 			searchResultsEl.style.display = "none";
 			searchProcessEl.innerText = "No";
