@@ -7,17 +7,8 @@ parameters:
 content_markdown: |-
   Welcome to Laravel DOC.
 
-  You'll succeed if you do this.
-  {: .success }
-
-  Here's some useful information.
+  Content not currently available. Please come back later.
   {: .info }
-
-  Something may not happen if you try and do this.
-  {: .warning }
-
-  Something bad will happen if you do this.
-  {: .error }
 left_code_blocks:
   - code_block:
     title:
