@@ -13,10 +13,9 @@ $space: 20px;
 
 $mobile-break: 700px;
 
+$base-url: '';
 {% if site.baseurl %}
-	$base-url: {{ site.baseurl }};
-{% else %}
-	$base-url: '';
+  $base-url: "{{ site.baseurl }}";
 {% endif %}
 
 @import "mixins";
