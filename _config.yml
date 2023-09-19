@@ -6,7 +6,7 @@ description: General Documentation For My Projects.
 url: https://doc.salim.link
 google_analytics_key:
 permalink: pretty
-baseurl: ""
+baseurl: https://doc.salim.link
 
 # -----
 # Build
